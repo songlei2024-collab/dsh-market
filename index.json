@@ -182,6 +182,43 @@
           }
         }
       ]
+    },
+    {
+      "name": "@wxg-prc-cpg/browser-skill-dsh-plugin",
+      "title": {
+        "en": "BrowserSkill",
+        "zh": "浏览器控制（BrowserSkill）"
+      },
+      "description": {
+        "en": "Let the agent drive your real, logged-in browser: native browser_* tools, task previews and screenshots. Requires the bsk CLI and the browser extension.",
+        "zh": "让 Agent 用你已登录的真实浏览器完成网页操作：原生 browser_* 工具、任务预览与截图。需要 bsk CLI 与浏览器扩展。"
+      },
+      "homepage": "https://github.com/Tencent/BrowserSkill",
+      "repository": {
+        "url": "https://github.com/Tencent/BrowserSkill",
+        "directory": "packages/dsh-plugin-browserskill"
+      },
+      "metadata": {
+        "category": "integration",
+        "keywords": [
+          "browser",
+          "automation",
+          "web",
+          "dsh-plugin"
+        ],
+        "labels": [
+          "third-party"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.3.2",
+          "publishTimestamp": 1790742201,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
     }
   ]
 }
