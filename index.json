@@ -1,0 +1,187 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Local DSH Plugin Market",
+    "zh": "本地 DSH 插件市场"
+  },
+  "description": {
+    "en": "A hand-curated index of DSH plugin bundles. Edit plugins[] to change what the Discover tab lists.",
+    "zh": "手工维护的 DSH 插件索引。改 plugins[] 就改「发现」页列出的内容。"
+  },
+  "metadata": {
+    "categories": {
+      "agent": {
+        "title": {
+          "en": "Agent capabilities",
+          "zh": "代理能力"
+        }
+      },
+      "ui": {
+        "title": {
+          "en": "Interface",
+          "zh": "界面"
+        }
+      },
+      "tooling": {
+        "title": {
+          "en": "Developer tooling",
+          "zh": "开发工具"
+        }
+      },
+      "integration": {
+        "title": {
+          "en": "Integrations",
+          "zh": "外部集成"
+        }
+      }
+    },
+    "labels": {
+      "official": {
+        "title": {
+          "en": "Official",
+          "zh": "官方"
+        }
+      },
+      "third-party": {
+        "title": {
+          "en": "Third party",
+          "zh": "第三方"
+        }
+      },
+      "experimental": {
+        "title": {
+          "en": "Experimental",
+          "zh": "实验性"
+        }
+      },
+      "audited": {
+        "title": {
+          "en": "Reviewed by me",
+          "zh": "本人已审"
+        }
+      }
+    },
+    "sortKeys": {
+      "stars": {
+        "title": {
+          "en": "Stars",
+          "zh": "星标数"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@deepseek-ai/dsh-experimental-session-search",
+      "title": {
+        "en": "Session search",
+        "zh": "会话检索"
+      },
+      "description": {
+        "en": "Give Agents tools to search and read earlier sessions from the current workspace.",
+        "zh": "让 Agent 检索并读取当前工作区早前的会话。"
+      },
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/experimental/session-search"
+      },
+      "metadata": {
+        "category": "agent",
+        "keywords": [
+          "session",
+          "search",
+          "history"
+        ],
+        "labels": [
+          "official",
+          "experimental"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225671,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-terminal-bundle",
+      "title": {
+        "en": "Persistent terminal",
+        "zh": "持久终端"
+      },
+      "description": {
+        "en": "Keep shell processes alive across tool calls.",
+        "zh": "跨工具调用保持 shell 进程存活。"
+      },
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/experimental/terminal-bundle"
+      },
+      "metadata": {
+        "category": "agent",
+        "keywords": [
+          "terminal",
+          "shell",
+          "pty"
+        ],
+        "labels": [
+          "official",
+          "experimental"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225716,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-plugin-market-bundle",
+      "title": {
+        "en": "Custom plugin market",
+        "zh": "自定义插件市场"
+      },
+      "description": {
+        "en": "A Discover tab that browses and installs bundles from plugin market indexes.",
+        "zh": "在插件页增加「发现」标签页，浏览并安装索引里的组合包（就是你正在装的这个）。"
+      },
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/experimental/plugin-market-bundle"
+      },
+      "metadata": {
+        "category": "agent",
+        "keywords": [
+          "market",
+          "discover",
+          "index"
+        ],
+        "labels": [
+          "official",
+          "experimental"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225654,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    }
+  ]
+}
